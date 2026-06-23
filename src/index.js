@@ -50,7 +50,11 @@ async function main() {
     const originalLevel = logger.level;
     logger.level = LOG_LEVELS.ERROR;
 
-    const continuousSvc = new NotificationService({ topK: 10 });
+    const continuousSvc = new NotificationService({
+      topK: 10,
+      apiUrl: 'http://4.224.186.213/evaluation-service/notifications',
+      authToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJhcmlwYWtha2FydGhpay4yMy5pdEBhbml0cy5lZHUuaW4iLCJleHAiOjE3ODIxOTQ3NTAsImlhdCI6MTc4MjE5Mzg1MCwiaXNzIjoiQWZmb3JkIE1lZGljYWwgVGVjaG5vbG9naWVzIFByaXZhdGUgTGltaXRlZCIsImp0aSI6IjRmMmEwMjU3LTFiZmMtNGI4OS1hZjYwLTIxZjYxNDU4MzliYSIsImxvY2FsZSI6ImVuLUlOIiwibmFtZSI6ImthcnRoaWsgYXJpcGFrYSIsInN1YiI6IjU1ZWU3ZmM0LTZlZDItNGIyZC05ZGZmLTY3ZDE5NGIwNWUwZSJ9LCJlbWFpbCI6ImFyaXBha2FrYXJ0aGlrLjIzLml0QGFuaXRzLmVkdS5pbiIsIm5hbWUiOiJrYXJ0aGlrIGFyaXBha2EiLCJyb2xsTm8iOiJhMjMxMjY1MTExMjgiLCJhY2Nlc3NDb2RlIjoiTVRxeGFyIiwiY2xpZW50SUQiOiI1NWVlN2ZjNC02ZWQyLTRiMmQtOWRmZi02N2QxOTRiMDVlMGUiLCJjbGllbnRTZWNyZXQiOiJ5YVFGclN1c3R1UHB5RGhwIn0.XxDax1MI_9f1EvQjdDugNR4r2A8bJHJAK_pplSNewVs'
+    });
     const baseTop10 = await continuousSvc.getTopKNotifications();
 
     logger.level = originalLevel;

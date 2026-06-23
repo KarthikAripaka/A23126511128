@@ -68,53 +68,53 @@ node src/index.js
    Time     : 2026-06-23 04:28:22
 
 #2 [Placement] (Priority: HIGH)
-   ID       : 7d9729a7-401d-4713-a559-98d227c707e1
+   ID       : f1476c4c-a381-42f5-8b93-9caa09cd1347
    Message  : Eli Lilly and Company hiring
-   Time     : 2026-06-23 02:57:56
+   Time     : 2026-06-23 02:30:45
 
 #3 [Placement] (Priority: HIGH)
+   ID       : 2358bbac-7be0-4081-bb0c-5c9ae537f1f7
+   Message  : CSX Corporation hiring
+   Time     : 2026-06-23 01:00:32
+
+#4 [Placement] (Priority: HIGH)
    ID       : 2c774a99-a78c-430d-8971-11eecc7b5d33
    Message  : PayPal Holdings Inc. hiring
    Time     : 2026-06-22 22:59:27
 
-#4 [Placement] (Priority: HIGH)
-   ID       : fbbf5bcd-8efa-4a32-bda7-18180b01952e
-   Message  : Marvell Technology Inc. hiring
-   Time     : 2026-06-22 16:26:25
-
 #5 [Placement] (Priority: HIGH)
-   ID       : 45256dd8-8a58-4303-b0e4-34b9a33d1647
-   Message  : CSX Corporation hiring
-   Time     : 2026-06-22 13:27:30
+   ID       : d057bbe3-a8cf-43df-8e19-0f0a2c17ddd3
+   Message  : Marvell Technology Inc. hiring
+   Time     : 2026-06-22 21:02:16
 
-#6 [Placement] (Priority: HIGH)
-   ID       : c6e2fb14-1cd9-4b3e-8df8-37826b9f3919
-   Message  : Tesla Inc. hiring
-   Time     : 2026-06-22 10:25:33
+#6 [Result] (Priority: MEDIUM)
+   ID       : 0377ccf8-d38d-4ca5-800b-c6dcd60c65f9
+   Message  : end-sem
+   Time     : 2026-06-23 03:01:11
 
 #7 [Result] (Priority: MEDIUM)
-   ID       : 277d3d5d-264b-419e-94d8-099805ba14b1
-   Message  : external
-   Time     : 2026-06-23 01:56:51
-
-#8 [Result] (Priority: MEDIUM)
    ID       : 9938af9d-e637-41dc-bd34-89ec424e8ca5
    Message  : project-review
    Time     : 2026-06-23 01:28:35
 
+#8 [Result] (Priority: MEDIUM)
+   ID       : da8d87ad-8fbe-4e68-9458-d86fef344b77
+   Message  : project-review
+   Time     : 2026-06-22 16:01:37
+
 #9 [Result] (Priority: MEDIUM)
-   ID       : 52d5c4f6-5001-410f-bb2d-edde283bc6a7
-   Message  : mid-sem
-   Time     : 2026-06-23 01:25:46
+   ID       : e6a00534-916c-4861-b8c9-16ab984a0178
+   Message  : internal
+   Time     : 2026-06-22 16:00:06
 
 #10 [Result] (Priority: MEDIUM)
-    ID       : 4471c9c6-211d-452e-9258-4c9f464d88a2
+    ID       : b33a5479-8ac0-4f45-b870-91b0619c2021
     Message  : internal
-    Time     : 2026-06-22 22:57:04
+    Time     : 2026-06-22 12:01:24
 
 --- Summary ---
-Placement : 6
-Result    : 4
+Placement : 5
+Result    : 5
 Event     : 0
 Total     : 10
 ```

@@ -3,47 +3,47 @@
   "run_mode": "live-api (authenticated with Bearer token)",
   "initial_top10": [
     { "rank": 1, "id": "4d2e9d9d-1059-45fe-8cc6-ca81bc343fc2", "type": "Placement", "priority": "HIGH", "message": "Berkshire Hathaway Inc. hiring", "timestamp": "2026-06-23 04:28:22" },
-    { "rank": 2, "id": "7d9729a7-401d-4713-a559-98d227c707e1", "type": "Placement", "priority": "HIGH", "message": "Eli Lilly and Company hiring", "timestamp": "2026-06-23 02:57:56" },
-    { "rank": 3, "id": "2c774a99-a78c-430d-8971-11eecc7b5d33", "type": "Placement", "priority": "HIGH", "message": "PayPal Holdings Inc. hiring", "timestamp": "2026-06-22 22:59:27" },
-    { "rank": 4, "id": "fbbf5bcd-8efa-4a32-bda7-18180b01952e", "type": "Placement", "priority": "HIGH", "message": "Marvell Technology Inc. hiring", "timestamp": "2026-06-22 16:26:25" },
-    { "rank": 5, "id": "45256dd8-8a58-4303-b0e4-34b9a33d1647", "type": "Placement", "priority": "HIGH", "message": "CSX Corporation hiring", "timestamp": "2026-06-22 13:27:30" },
-    { "rank": 6, "id": "c6e2fb14-1cd9-4b3e-8df8-37826b9f3919", "type": "Placement", "priority": "HIGH", "message": "Tesla Inc. hiring", "timestamp": "2026-06-22 10:25:33" },
-    { "rank": 7, "id": "277d3d5d-264b-419e-94d8-099805ba14b1", "type": "Result", "priority": "MEDIUM", "message": "external", "timestamp": "2026-06-23 01:56:51" },
-    { "rank": 8, "id": "9938af9d-e637-41dc-bd34-89ec424e8ca5", "type": "Result", "priority": "MEDIUM", "message": "project-review", "timestamp": "2026-06-23 01:28:35" },
-    { "rank": 9, "id": "52d5c4f6-5001-410f-bb2d-edde283bc6a7", "type": "Result", "priority": "MEDIUM", "message": "mid-sem", "timestamp": "2026-06-23 01:25:46" },
-    { "rank": 10, "id": "4471c9c6-211d-452e-9258-4c9f464d88a2", "type": "Result", "priority": "MEDIUM", "message": "internal", "timestamp": "2026-06-22 22:57:04" }
+    { "rank": 2, "id": "f1476c4c-a381-42f5-8b93-9caa09cd1347", "type": "Placement", "priority": "HIGH", "message": "Eli Lilly and Company hiring", "timestamp": "2026-06-23 02:30:45" },
+    { "rank": 3, "id": "2358bbac-7be0-4081-bb0c-5c9ae537f1f7", "type": "Placement", "priority": "HIGH", "message": "CSX Corporation hiring", "timestamp": "2026-06-23 01:00:32" },
+    { "rank": 4, "id": "2c774a99-a78c-430d-8971-11eecc7b5d33", "type": "Placement", "priority": "HIGH", "message": "PayPal Holdings Inc. hiring", "timestamp": "2026-06-22 22:59:27" },
+    { "rank": 5, "id": "d057bbe3-a8cf-43df-8e19-0f0a2c17ddd3", "type": "Placement", "priority": "HIGH", "message": "Marvell Technology Inc. hiring", "timestamp": "2026-06-22 21:02:16" },
+    { "rank": 6, "id": "0377ccf8-d38d-4ca5-800b-c6dcd60c65f9", "type": "Result", "priority": "MEDIUM", "message": "end-sem", "timestamp": "2026-06-23 03:01:11" },
+    { "rank": 7, "id": "9938af9d-e637-41dc-bd34-89ec424e8ca5", "type": "Result", "priority": "MEDIUM", "message": "project-review", "timestamp": "2026-06-23 01:28:35" },
+    { "rank": 8, "id": "da8d87ad-8fbe-4e68-9458-d86fef344b77", "type": "Result", "priority": "MEDIUM", "message": "project-review", "timestamp": "2026-06-22 16:01:37" },
+    { "rank": 9, "id": "e6a00534-916c-4861-b8c9-16ab984a0178", "type": "Result", "priority": "MEDIUM", "message": "internal", "timestamp": "2026-06-22 16:00:06" },
+    { "rank": 10, "id": "b33a5479-8ac0-4f45-b870-91b0619c2021", "type": "Result", "priority": "MEDIUM", "message": "internal", "timestamp": "2026-06-22 12:01:24" }
   ],
   "summary": {
-    "placement": 6,
-    "result": 4,
+    "placement": 5,
+    "result": 5,
     "event": 0,
     "total": 10
   },
   "continuous_update_simulation": {
     "scenario": "3 brand new Placement notifications arrive",
     "new_arrivals": [
-      { "id": "notif-new-003", "type": "Placement", "message": "New: Apple SE role open for freshers", "timestamp": "2026-06-23T08:59:40.600Z" },
-      { "id": "notif-new-002", "type": "Placement", "message": "New: Meta campus drive tomorrow", "timestamp": "2026-06-23T07:59:40.600Z" },
-      { "id": "notif-new-001", "type": "Placement", "message": "New: Google L5 hiring drive announced", "timestamp": "2026-06-23T06:59:40.600Z" }
+      { "id": "notif-new-003", "type": "Placement", "message": "New: Apple SE role open for freshers", "timestamp": "2026-06-23T09:02:21.027Z" },
+      { "id": "notif-new-002", "type": "Placement", "message": "New: Meta campus drive tomorrow", "timestamp": "2026-06-23T08:02:21.027Z" },
+      { "id": "notif-new-001", "type": "Placement", "message": "New: Google L5 hiring drive announced", "timestamp": "2026-06-23T07:02:21.027Z" }
     ],
     "updated_top10": [
-      { "rank": 1, "id": "notif-new-003", "type": "Placement", "priority": "HIGH", "message": "New: Apple SE role open for freshers", "timestamp": "2026-06-23T08:59:40.600Z" },
-      { "rank": 2, "id": "notif-new-002", "type": "Placement", "priority": "HIGH", "message": "New: Meta campus drive tomorrow", "timestamp": "2026-06-23T07:59:40.600Z" },
-      { "rank": 3, "id": "notif-new-001", "type": "Placement", "priority": "HIGH", "message": "New: Google L5 hiring drive announced", "timestamp": "2026-06-23T06:59:40.600Z" },
-      { "rank": 4, "id": "notif-0082", "type": "Placement", "priority": "HIGH", "message": "Microsoft campus placement drive next week #82", "timestamp": "2026-06-22T17:50:37.881Z" },
-      { "rank": 5, "id": "notif-0064", "type": "Placement", "priority": "HIGH", "message": "Goldman Sachs internship offer released #64", "timestamp": "2026-06-22T15:38:57.036Z" },
-      { "rank": 6, "id": "notif-0046", "type": "Placement", "priority": "HIGH", "message": "Tata Consultancy Services campus drive #46", "timestamp": "2026-06-22T13:45:13.334Z" },
-      { "rank": 7, "id": "notif-0058", "type": "Placement", "priority": "HIGH", "message": "Infosys SES recruitment started #58", "timestamp": "2026-06-22T09:33:27.756Z" },
-      { "rank": 8, "id": "notif-0070", "type": "Placement", "priority": "HIGH", "message": "Deloitte campus placement process #70", "timestamp": "2026-06-22T07:01:32.576Z" },
-      { "rank": 9, "id": "notif-0031", "type": "Placement", "priority": "HIGH", "message": "Google Drive interview scheduled for tomorrow #31", "timestamp": "2026-06-22T06:56:19.376Z" },
-      { "rank": 10, "id": "notif-0061", "type": "Placement", "priority": "HIGH", "message": "Google Drive interview scheduled for tomorrow #61", "timestamp": "2026-06-22T06:33:44.027Z" }
+      { "rank": 1, "id": "notif-new-003", "type": "Placement", "priority": "HIGH", "message": "New: Apple SE role open for freshers", "timestamp": "2026-06-23T09:02:21.027Z" },
+      { "rank": 2, "id": "notif-new-002", "type": "Placement", "priority": "HIGH", "message": "New: Meta campus drive tomorrow", "timestamp": "2026-06-23T08:02:21.027Z" },
+      { "rank": 3, "id": "notif-new-001", "type": "Placement", "priority": "HIGH", "message": "New: Google L5 hiring drive announced", "timestamp": "2026-06-23T07:02:21.027Z" },
+      { "rank": 4, "id": "4d2e9d9d-1059-45fe-8cc6-ca81bc343fc2", "type": "Placement", "priority": "HIGH", "message": "Berkshire Hathaway Inc. hiring", "timestamp": "2026-06-23 04:28:22" },
+      { "rank": 5, "id": "f1476c4c-a381-42f5-8b93-9caa09cd1347", "type": "Placement", "priority": "HIGH", "message": "Eli Lilly and Company hiring", "timestamp": "2026-06-23 02:30:45" },
+      { "rank": 6, "id": "2358bbac-7be0-4081-bb0c-5c9ae537f1f7", "type": "Placement", "priority": "HIGH", "message": "CSX Corporation hiring", "timestamp": "2026-06-23 01:00:32" },
+      { "rank": 7, "id": "2c774a99-a78c-430d-8971-11eecc7b5d33", "type": "Placement", "priority": "HIGH", "message": "PayPal Holdings Inc. hiring", "timestamp": "2026-06-22 22:59:27" },
+      { "rank": 8, "id": "d057bbe3-a8cf-43df-8e19-0f0a2c17ddd3", "type": "Placement", "priority": "HIGH", "message": "Marvell Technology Inc. hiring", "timestamp": "2026-06-22 21:02:16" },
+      { "rank": 9, "id": "0377ccf8-d38d-4ca5-800b-c6dcd60c65f9", "type": "Result", "priority": "MEDIUM", "message": "end-sem", "timestamp": "2026-06-23 03:01:11" },
+      { "rank": 10, "id": "9938af9d-e637-41dc-bd34-89ec424e8ca5", "type": "Result", "priority": "MEDIUM", "message": "project-review", "timestamp": "2026-06-23 01:28:35" }
     ]
   },
   "perf_meta": {
     "processed_items": 20,
     "invalid_items": 0,
     "duration_ms": {
-      "initial_run": 3,
+      "initial_run": 1,
       "continuous_sim": 0
     }
   }
