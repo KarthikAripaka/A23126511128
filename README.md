@@ -1,14 +1,14 @@
-# Campus Notifications - Priority Inbox System
+ Campus Notifications - Priority Inbox System
 
 > Stage 1 Deliverable - AffordMed Campus Hiring Evaluation
 
-A production-quality backend service that fetches campus notifications, ranks them by business priority, and surfaces the Top 10 highest-priority items using an efficient Min-Heap algorithm.
+A productio0n-quality backend service that fetches campus notifications, ranks them by business priority, and surfaces the Top 10 highest-priority items using an efficient Min-Heap algorithm.
 
 ## Features
 
 - Fetches notifications from the external API
 - Normalizes and validates incoming data
-- Ranks by: **Placement > Result > Event**, then by recency
+- Ranks by: ll*Placement > Result > Event**, then by recency
 - Maintains Top 10 in **O(N log K)** time using a Min-Heap
 - Integrates structured **Logging Middleware** (no console.log)
 - Handles continuous/streaming updates without full re-sorts
@@ -163,6 +163,11 @@ git add .
 git commit -m "chore: enable production API integration"
 ```
 
-## No Frontend
+Frontend included for visualization of ranked notifications.
 
-This is a **backend-only** service. It produces CLI output and structured logs. No React, Material UI, or web pages are included per Stage 1 requirements.
+To start the frontend:
+
+```bash
+cd frontend
+npm install
+npm run dev
