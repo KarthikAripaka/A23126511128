@@ -63,20 +63,58 @@ node src/index.js
 --- Top 10 Highest-Priority Notifications ---
 
 #1 [Placement] (Priority: HIGH)
-   ID       : notif-0085
-   Message  : Flipkart Grid 5.0 registration open #85
-   Time     : 2026-06-23T03:13:07.625Z
+   ID       : 4d2e9d9d-1059-45fe-8cc6-ca81bc343fc2
+   Message  : Berkshire Hathaway Inc. hiring
+   Time     : 2026-06-23 04:28:22
 
 #2 [Placement] (Priority: HIGH)
-   ID       : notif-0025
-   Message  : Flipkart Grid 5.0 registration open #25
-   Time     : 2026-06-23T02:19:48.063Z
+   ID       : 7d9729a7-401d-4713-a559-98d227c707e1
+   Message  : Eli Lilly and Company hiring
+   Time     : 2026-06-23 02:57:56
 
-... (8 more) ...
+#3 [Placement] (Priority: HIGH)
+   ID       : 2c774a99-a78c-430d-8971-11eecc7b5d33
+   Message  : PayPal Holdings Inc. hiring
+   Time     : 2026-06-22 22:59:27
+
+#4 [Placement] (Priority: HIGH)
+   ID       : fbbf5bcd-8efa-4a32-bda7-18180b01952e
+   Message  : Marvell Technology Inc. hiring
+   Time     : 2026-06-22 16:26:25
+
+#5 [Placement] (Priority: HIGH)
+   ID       : 45256dd8-8a58-4303-b0e4-34b9a33d1647
+   Message  : CSX Corporation hiring
+   Time     : 2026-06-22 13:27:30
+
+#6 [Placement] (Priority: HIGH)
+   ID       : c6e2fb14-1cd9-4b3e-8df8-37826b9f3919
+   Message  : Tesla Inc. hiring
+   Time     : 2026-06-22 10:25:33
+
+#7 [Result] (Priority: MEDIUM)
+   ID       : 277d3d5d-264b-419e-94d8-099805ba14b1
+   Message  : external
+   Time     : 2026-06-23 01:56:51
+
+#8 [Result] (Priority: MEDIUM)
+   ID       : 9938af9d-e637-41dc-bd34-89ec424e8ca5
+   Message  : project-review
+   Time     : 2026-06-23 01:28:35
+
+#9 [Result] (Priority: MEDIUM)
+   ID       : 52d5c4f6-5001-410f-bb2d-edde283bc6a7
+   Message  : mid-sem
+   Time     : 2026-06-23 01:25:46
+
+#10 [Result] (Priority: MEDIUM)
+    ID       : 4471c9c6-211d-452e-9258-4c9f464d88a2
+    Message  : internal
+    Time     : 2026-06-22 22:57:04
 
 --- Summary ---
-Placement : 10
-Result    : 0
+Placement : 6
+Result    : 4
 Event     : 0
 Total     : 10
 ```
