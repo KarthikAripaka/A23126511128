@@ -1,8 +1,8 @@
 import React, { useMemo } from 'react';
 import { Container, Typography, Box } from '@mui/material';
-import { useNotifications } from '../../hooks/useNotifications';
-import { usePriorityNotifications } from '../../hooks/usePriorityNotifications';
-import { useViewedNotifications } from '../../hooks/useViewedNotifications';
+import { useNotifications } from '../hooks/useNotifications';
+import { usePriorityNotifications } from '../hooks/usePriorityNotifications';
+import { useViewedNotifications } from '../hooks/useViewedNotifications';
 import NotificationList from '../components/NotificationList';
 import FilterBar from '../components/FilterBar';
 import TopNSelector from '../components/TopNSelector';

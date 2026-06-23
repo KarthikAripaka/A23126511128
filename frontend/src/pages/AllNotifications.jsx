@@ -1,7 +1,7 @@
 import React, { useCallback, useMemo } from 'react';
 import { Container, Typography, Box } from '@mui/material';
-import { useNotifications } from '../../hooks/useNotifications';
-import { useViewedNotifications } from '../../hooks/useViewedNotifications';
+import { useNotifications } from '../hooks/useNotifications';
+import { useViewedNotifications } from '../hooks/useViewedNotifications';
 import NotificationList from '../components/NotificationList';
 import FilterBar from '../components/FilterBar';
 import LoadingState from '../components/LoadingState';

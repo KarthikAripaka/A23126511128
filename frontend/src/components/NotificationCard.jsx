@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent, Chip, Badge, Typography, Box } from '@mui/material';
-import { NOTIFICATION_TYPES } from '../../utils/constants';
+import { NOTIFICATION_TYPES } from '../utils/constants';
 
 const NotificationCard = ({ notification, isUnread, onClick }) => {
   const typeConfig = NOTIFICATION_TYPES[notification.Type] || { label: 'Unknown', color: 'default' };

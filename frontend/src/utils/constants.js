@@ -1,4 +1,4 @@
-export const API_BASE_URL = 'http://4.224.186.213/evaluation-service';
+export const API_BASE_URL = '/evaluation-service';
 
 export const NOTIFICATION_TYPES = {
   Placement: { label: 'Placement', color: 'primary', weight: 3 },

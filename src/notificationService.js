@@ -76,13 +76,14 @@ export class NotificationService {
       data = this.getMockNotifications();
     }
 
-    if (!Array.isArray(data)) {
+    const notifications = Array.isArray(data) ? data : (data.notifications || []);
+    if (!Array.isArray(notifications)) {
       logger.error('Invalid API response format', { dataType: typeof data });
       return [];
     }
 
-    logger.info(`Received ${data.length} notifications`, { count: data.length });
-    return data;
+    logger.info(`Received ${notifications.length} notifications`, { count: notifications.length });
+    return notifications;
   }
 
   getMockNotifications() {
