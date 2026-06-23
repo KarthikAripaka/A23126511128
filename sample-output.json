@@ -1,0 +1,50 @@
+{
+  "program": "Campus Notifications - Priority Inbox",
+  "run_mode": "mock-data (API returned 401 Unauthorized)",
+  "initial_top10": [
+    { "rank": 1, "id": "notif-0085", "type": "Placement", "priority": "HIGH", "message": "Flipkart Grid 5.0 registration open #85", "timestamp": "2026-06-23T03:13:07.625Z" },
+    { "rank": 2, "id": "notif-0025", "type": "Placement", "priority": "HIGH", "message": "Flipkart Grid 5.0 registration open #25", "timestamp": "2026-06-23T02:19:48.063Z" },
+    { "rank": 3, "id": "notif-0091", "type": "Placement", "priority": "HIGH", "message": "Google Drive interview scheduled for tomorrow #91", "timestamp": "2026-06-22T17:47:52.982Z" },
+    { "rank": 4, "id": "notif-0046", "type": "Placement", "priority": "HIGH", "message": "Tata Consultancy Services campus drive #46", "timestamp": "2026-06-22T16:36:37.609Z" },
+    { "rank": 5, "id": "notif-0070", "type": "Placement", "priority": "HIGH", "message": "Deloitte campus placement process #70", "timestamp": "2026-06-22T09:42:10.230Z" },
+    { "rank": 6, "id": "notif-0073", "type": "Placement", "priority": "HIGH", "message": "Amazon hiring for SDE role #73", "timestamp": "2026-06-22T09:34:16.574Z" },
+    { "rank": 7, "id": "notif-0019", "type": "Placement", "priority": "HIGH", "message": "Wipro Elite National Level Test #19", "timestamp": "2026-06-22T07:51:11.082Z" },
+    { "rank": 8, "id": "notif-0031", "type": "Placement", "priority": "HIGH", "message": "Google Drive interview scheduled for tomorrow #31", "timestamp": "2026-06-22T07:48:10.411Z" },
+    { "rank": 9, "id": "notif-0076", "type": "Placement", "priority": "HIGH", "message": "Tata Consultancy Services campus drive #76", "timestamp": "2026-06-21T12:10:45.323Z" },
+    { "rank": 10, "id": "notif-0040", "type": "Placement", "priority": "HIGH", "message": "Deloitte campus placement process #40", "timestamp": "2026-06-21T11:32:41.376Z" }
+  ],
+  "summary": {
+    "placement": 10,
+    "result": 0,
+    "event": 0,
+    "total": 10
+  },
+  "continuous_update_simulation": {
+    "scenario": "3 brand new Placement notifications arrive",
+    "new_arrivals": [
+      { "id": "notif-new-003", "type": "Placement", "message": "New: Apple SE role open for freshers", "timestamp": "2026-06-23T08:21:17.179Z" },
+      { "id": "notif-new-002", "type": "Placement", "message": "New: Meta campus drive tomorrow", "timestamp": "2026-06-23T07:21:17.179Z" },
+      { "id": "notif-new-001", "type": "Placement", "message": "New: Google L5 hiring drive announced", "timestamp": "2026-06-23T06:21:17.179Z" }
+    ],
+    "updated_top10": [
+      { "rank": 1, "id": "notif-new-003", "type": "Placement", "priority": "HIGH", "message": "New: Apple SE role open for freshers", "timestamp": "2026-06-23T08:21:17.179Z" },
+      { "rank": 2, "id": "notif-new-002", "type": "Placement", "priority": "HIGH", "message": "New: Meta campus drive tomorrow", "timestamp": "2026-06-23T07:21:17.179Z" },
+      { "rank": 3, "id": "notif-new-001", "type": "Placement", "priority": "HIGH", "message": "New: Google L5 hiring drive announced", "timestamp": "2026-06-23T06:21:17.179Z" },
+      { "rank": 4, "id": "notif-0043", "type": "Placement", "priority": "HIGH", "message": "Amazon hiring for SDE role #43", "timestamp": "2026-06-22T23:28:02.689Z" },
+      { "rank": 5, "id": "notif-0103", "type": "Placement", "priority": "HIGH", "message": "Amazon hiring for SDE role #103", "timestamp": "2026-06-22T17:43:06.187Z" },
+      { "rank": 6, "id": "notif-0073", "type": "Placement", "priority": "HIGH", "message": "Amazon hiring for SDE role #73", "timestamp": "2026-06-22T11:13:48.918Z" },
+      { "rank": 7, "id": "notif-0121", "type": "Placement", "priority": "HIGH", "message": "Google Drive interview scheduled for tomorrow #121", "timestamp": "2026-06-22T06:52:13.274Z" },
+      { "rank": 8, "id": "notif-0034", "type": "Placement", "priority": "HIGH", "message": "Goldman Sachs internship offer released #34", "timestamp": "2026-06-22T05:11:39.419Z" },
+      { "rank": 9, "id": "notif-0064", "type": "Placement", "priority": "HIGH", "message": "Goldman Sachs internship offer released #64", "timestamp": "2026-06-22T02:44:27.985Z" },
+      { "rank": 10, "id": "notif-0097", "type": "Placement", "priority": "HIGH", "message": "Accenture placement results announced #97", "timestamp": "2026-06-22T01:51:57.408Z" }
+    ]
+  },
+  "perf_meta": {
+    "processed_items": 125,
+    "invalid_items": 0,
+    "duration_ms": {
+      "initial_run": 8,
+      "continuous_sim": 6
+    }
+  }
+}

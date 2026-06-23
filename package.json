@@ -1,0 +1,13 @@
+{
+  "name": "affordmed-notification-system",
+  "version": "1.0.0",
+  "description": "Priority Inbox Notification System for Campus Notifications Platform",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/index.js"
+  },
+  "keywords": ["notification", "priority", "heap", "campus"],
+  "license": "MIT"
+}
